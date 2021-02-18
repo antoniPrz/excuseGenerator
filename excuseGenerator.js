@@ -1,4 +1,5 @@
 
+
 function excuseGenerator(){
 
     let quien = ["Mi perro","Mi madre","Mi hermano","El gato","Un cocodrilo"];
@@ -14,9 +15,13 @@ function excuseGenerator(){
     
     
     
-    
     return quien[quienIndex]+" "+accion[accionIndex]+" "+queCosa[queCosaIndex]+" "+cuando[cuandoIndex]
     
     }
     
     console.log(excuseGenerator());
+    let excusa = excuseGenerator();
+
+   
+   
+    document.getElementById("excusa").innerHTML = excusa
