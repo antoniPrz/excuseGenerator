@@ -29,8 +29,10 @@ function excuseGenerator(){
     
     // aqui imprimo por pantalla  el resultado de llamar la funcion lo que me imprime el retur de la funcion
     console.log(excuseGenerator());
+
+    // aqui creo una variable y guado el resultado de la funcion para luego usar eso para madarlo al html
     let excusa = excuseGenerator();
 
    
-   
+   // con esta linea se manda el resultado de la funcion al html
     document.getElementById("excusa").innerHTML = excusa
